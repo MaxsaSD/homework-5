@@ -5,7 +5,7 @@
 
 html::before {
     content: '';
-    background: url(../images/bg2.jpg) no-repeat center center fixed;
+    background: url(images/bg2.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     position: fixed;
@@ -70,7 +70,7 @@ body h1, h2, h3{
 }
 
 .explanation {
-    background: url(../images/nikki_sixx.png) no-repeat left;
+    background: url(images/nikki_sixx.png) no-repeat left;
     background-size: cover;
     grid-column:1;
     grid-row: 1;
@@ -84,7 +84,7 @@ body h1, h2, h3{
 }
 
 .participation {
-    background: url(../images/mick_mars.png) no-repeat right;
+    background: url(images/mick_mars.png) no-repeat right;
     background-size: cover;
     grid-column:1;
     grid-row: 2; 
@@ -105,7 +105,7 @@ body h1, h2, h3{
 }
 
 .benefits {
-    background: url(../images/tommy_lee.png) no-repeat left;
+    background: url(images/tommy_lee.png) no-repeat left;
     background-size: cover;
     grid-column:1;
     grid-row: 3; 
@@ -121,7 +121,7 @@ body h1, h2, h3{
 }    
 
 .requirements {
-    background: url(../images/vince_neil.png) no-repeat right;
+    background: url(images/vince_neil.png) no-repeat right;
     background-size: cover;
     font-size: 0.8em;
     grid-column:1;
