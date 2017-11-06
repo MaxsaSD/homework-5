@@ -66,7 +66,7 @@ body h1, h2, h3{
 .explanation {
     grid-column:1;
     grid-row: 1;
-    background: url(/images/nikki_sixx.png) no-repeat;
+    background: url(../images/nikki_sixx.png) no-repeat;
     background-size: cover;
     padding-left: 280px;
     padding-top: 50px;
@@ -76,7 +76,7 @@ body h1, h2, h3{
 .participation {
     grid-column:1;
     grid-row: 2; 
-    background: url(/images/mick_mars.png) no-repeat;
+    background: url(../images/mick_mars.png) no-repeat;
     background-size: cover;
     padding-left: 10px;
     padding-right: 305px;
@@ -86,7 +86,7 @@ body h1, h2, h3{
 .benefits {
     grid-column:1;
     grid-row: 3; 
-    background: url(/images/tommy_lee.png) no-repeat;
+    background: url(../images/tommy_lee.png) no-repeat;
     background-size: cover;
     padding-left: 420px;
     padding-top: 30px;
@@ -102,7 +102,7 @@ body h1, h2, h3{
 .requirements {
     grid-column:1;
     grid-row: 4; 
-    background: url(/images/vince_neil.png) no-repeat;
+    background: url(../images/vince_neil.png) no-repeat;
     background-size: cover;
     padding-left: 5px;
     padding-right: 185px;
