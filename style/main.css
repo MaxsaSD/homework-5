@@ -7,7 +7,7 @@ html::before {
     content: '';
     width: 100%;
     height: 100vh;
-    background: url(images/bg2.jpg) no-repeat center center fixed;
+    background: url(./images/bg2.jpg) no-repeat center center fixed;
     background-size: cover;
     position: fixed;
     z-index: -2;
@@ -51,8 +51,6 @@ body h1, h2, h3{
     box-shadow: inset 0 0 1em #fff;
 }
 
-
-
 .main::before {
     content:" ";
     clear: both;
@@ -68,7 +66,7 @@ body h1, h2, h3{
 .explanation {
     grid-column:1;
     grid-row: 1;
-    background: url(images/nikki_sixx.png) no-repeat;
+    background: url(/images/nikki_sixx.png) no-repeat;
     background-size: cover;
     padding-left: 280px;
     padding-top: 50px;
@@ -78,7 +76,7 @@ body h1, h2, h3{
 .participation {
     grid-column:1;
     grid-row: 2; 
-    background: url(images/mick_mars.png) no-repeat;
+    background: url(/images/mick_mars.png) no-repeat;
     background-size: cover;
     padding-left: 10px;
     padding-right: 305px;
@@ -88,7 +86,7 @@ body h1, h2, h3{
 .benefits {
     grid-column:1;
     grid-row: 3; 
-    background: url(images/tommy_lee.png) no-repeat;
+    background: url(/images/tommy_lee.png) no-repeat;
     background-size: cover;
     padding-left: 420px;
     padding-top: 30px;
@@ -104,7 +102,7 @@ body h1, h2, h3{
 .requirements {
     grid-column:1;
     grid-row: 4; 
-    background: url(images/vince_neil.png) no-repeat;
+    background: url(/images/vince_neil.png) no-repeat;
     background-size: cover;
     padding-left: 5px;
     padding-right: 185px;
@@ -146,7 +144,6 @@ footer a:hover {
     color:#bfe1f1;
 }
 
-/*--------------------------------------------*/
 aside{
     height:400px;
 }
@@ -167,6 +164,7 @@ aside{
     grid-row: 2; 
 
 }
+
 .zen-resources{
     grid-column: 2;
     grid-row: 2; 
@@ -188,6 +186,7 @@ aside{
   list-style: none;
   counter-reset: li;
 }
+
 .design-selection li {
   padding: 10px 0;
   position: relative;
@@ -196,6 +195,7 @@ aside{
   padding-left: 1em;
   background: rgba(51,51,51,1);
 }
+
 .design-selection li:before {
   padding: 10px 0;
   position: absolute;
@@ -212,6 +212,7 @@ aside{
   counter-increment: li;
   content: counter(li);
 }
+
 .design-selection ul li a { 
     background-color:#333; 
     border-left:5px solid #222; 
@@ -223,6 +224,7 @@ aside{
 .design-archives { 
     margin: 20px 0 0px 0;  
 }
+
 .design-archives h3{ 
     margin-bottom: 20px;
 }
@@ -230,9 +232,11 @@ aside{
 .design-archives ul { 
     list-style:none; 
 }
+
 .design-archives ul li { 
     margin-bottom: 0.2em; 
 }
+
 .design-archives ul li a { 
     display:block;
     width:290px;
@@ -244,6 +248,7 @@ aside{
     text-decoration:none; 
     color:#bfe1f1; 
 }
+
 .design-archives ul li a:hover {  
     transform:rotate(-5deg); 
     box-shadow:10px 10px 20px #000000; 
@@ -252,6 +257,7 @@ aside{
 .zen-resources { 
     margin: 20px 0 0px 0;  
 }
+
 .zen-resources h3{ 
     margin-bottom: 20px;
 }
@@ -259,9 +265,11 @@ aside{
 .zen-resources ul { 
     list-style:none; 
 }
+
 .zen-resources ul li { 
     margin-bottom: 0.2em; 
 }
+
 .zen-resources ul li a { 
     display:block;
     width:290px;
@@ -273,8 +281,8 @@ aside{
     text-decoration:none; 
     color:#bfe1f1; 
 }
+
 .zen-resources ul li a:hover {  
     transform:rotate(-5deg); 
     box-shadow:10px 10px 20px #000000; 
 }
-
