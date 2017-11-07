@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Nosifer|Montez|Creepster|Crushed');
-* {
-    margin: 0;  
-}
 
 html::before {
     content: '';
